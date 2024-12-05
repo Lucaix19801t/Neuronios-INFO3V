@@ -14,6 +14,12 @@
     --fonte-padrao: Arial,Verdana, Helvetica, sans-serif;
 }
 
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
 
 body{
     background-color: var(--cor0);
