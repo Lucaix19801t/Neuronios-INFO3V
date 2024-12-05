@@ -14,17 +14,31 @@
     --fonte-padrao: Arial,Verdana, Helvetica, sans-serif;
 }
 
+
 main{
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
+
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena /* para imagems responsivas*/{
+    max-width: 350px;
+    display: block;
+    margin: auto;
 }
 
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
+
+
+
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -50,6 +64,15 @@ header > p{
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
+}
+
+main p /*Colocar as margens q foram retiradas no reset total lá em cima*/{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent:30px;
+    font-size: 1em;
+    line-height: 1em; /* espaço entre uma linha e outra*/
+
 }
 
 .section {
