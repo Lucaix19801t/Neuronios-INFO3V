@@ -16,12 +16,17 @@
         </nav>
     </header>
 
+  
+
     <main>
-        <section id="sobre" class="section">
+        <section id="sobre" class="section"> <!-- Há div's dentro dos sections para divisão semântica, flexibilidade na hora de estilizar e etc...-->
             <div class="container">
                 <h2>Sobre os Neurônios</h2>
-                <p>Os neurônios são as unidades fundamentais do sistema nervoso. Eles são responsáveis por transmitir sinais elétricos e químicos em todo o corpo.</p>
-                <img src="../IMAGENS/1-partes-do-neuronio.png" alt="Imagem de um neurônio" class="responsive">
+                <p>Os neurônios são as unidades fundamentais do sistema nervoso. Eles são responsáveis por transmitir sinais elétricos e químicos em todo o corpo.</p> 
+                <picture> <!--Imagem responsiva-->
+                    <source media="(max-width: 600px)" srcset=""> <!--Colocar o diretório da imagem pequena no srcset-->
+                    <img src="../IMAGENS/1-partes-do-neuronio.png" alt="Imagem de um neurônio" class="pequena">
+                </picture>
             </div>
         </section>
 
